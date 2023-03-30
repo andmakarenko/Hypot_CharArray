@@ -35,7 +35,6 @@ namespace Hypot_CharArray
             Console.WriteLine();
             ShowMap(map);
             Console.Read();
-
         }
 
         static void FindHypot(char[,] map, (int, int) first, (int, int) second)
